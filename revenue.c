@@ -7,6 +7,7 @@ int main(int argc, char *argv[]) {
 	int choice;
 	long revenue[12][3];
 	
+	// Init revenue
 	for (int i = 0; i < 12; i++){
 		for (int j = 0; j < 3; j++){
 			revenue[i][j] = 0;
